@@ -113,20 +113,24 @@ A ***winner***will be announced on the seven-segment display when one player has
            
 <a name="how_to_play"></a>     
 ### How to Play: :smiley:
++ Life Count &#8594; Displayed on the seven-segment display (for demo purposes only).
++ Bullet Count &#8594; Displayed using LEDs.
 
-Life Count &#8594; Displayed on the seven-segment display (for demo purposes only)
-Bullet Count &#8594; Displayed using LEDs
-
-1. Start with the pause switch on (which is the rightmost swtich).
-2. Select your time setting (demo setting for a 7 second countdown and normal setting for a 3 second countdown).
+1. Start with the `pause` switch on (which is the rightmost swtich).
+2. Select your time setting using the switches (demo setting for a 7 second countdown and normal setting for a 3 second countdown).
 3. Select your initial move on the keyboard. 
      * U &#8594; Shoot
      * I &#8594; Reload
      * O &#8594; Duck
-4. Unpause my moving the switch back down. 
+4. Unpause by moving the `pause` switch back down. 
 5. Monitor the changes in bullet count to see when a round has passed. (*the countdown is functional but timing is off so it's important to focus on the bullet count and your move instead.*)
-6. Continue making moves using the keyboard each round and monitoring the bullet count, life count, and moves.
-7. When either the player or computer reaches zero lives, a sound will indicate that someone has won the game.
+6. The player's move will also be displayed on the seven segment display:
+     * S &#8594; Shoot
+     * r &#8594; Reload
+     * d &#8594; Duck
+     * - &#8594; Idle (make an invalid decision)
+7. Continue making moves using the keyboard each round and monitoring the bullet count, life count, and moves.
+8. When either the player or computer reaches zero lives, a sound will indicate that someone has won the game.
            
            
 <a name="code_structure"></a>     
@@ -144,7 +148,7 @@ Bullet Count &#8594; Displayed using LEDs
    *This includes all the design sources used to implement our fully-functional game in Vivado with a keyboard as the input.*
            
 + `top_module.v` 
-    + `top_keyboard.v`
+    + `top_keyboard.v` &#8594; top module for keyboard to be used to receive inputs
         + `Ps2_receiver.v`
              + `keyboard_debouncer.v`
         + `keyboard_decoder.v`

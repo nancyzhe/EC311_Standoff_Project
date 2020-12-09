@@ -128,7 +128,7 @@ A ***winner***will be announced on the seven-segment display when one player has
      * S &#8594; Shoot
      * r &#8594; Reload
      * d &#8594; Duck
-     * - &#8594; Idle (make an invalid decision)
+     * \- &#8594; Idle (make an invalid decision)
 7. Continue making moves using the keyboard each round and monitoring the bullet count, life count, and moves.
 8. When either the player or computer reaches zero lives, a sound will indicate that someone has won the game.
            
@@ -217,7 +217,7 @@ A ***winner***will be announced on the seven-segment display when one player has
 <details>
 <summary>Constraints</summary>
      
- *This is the constraint file use in our design to push it to the FPGA (XLINX NEXYS A7 FPGA Board)*
+ *This is the constraint file use in our design to push it to the FPGA (XLINX NEXYS A7 FPGA Board).*
  
 + `Nexys4DDR_Master.xdc`
 

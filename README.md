@@ -24,11 +24,11 @@
 ### Organization:
         
    * ***Folders***
-        * Design Files: Includes all of the necessary design files to implement our design 
-        * Testbenches: Includes all of the necessary testbenches to test our design  
-        * Constraints: Includes our constraint file to implement project on the FPGA
+        * Design Files: Includes all of the necessary design files to implement our design.
+        * Testbench Files: Includes all of the necessary testbenches to test our design.
+        * Constraints: Includes our constraint file to implement project on the FPGA.
    * ***Powerpoint***
-        * Powerpoint detailing the design and structure of our project 
+        * Powerpoint detailing the design and structure of our project.
         
         
 <a name="projectoverview"></a>   

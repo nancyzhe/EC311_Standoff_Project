@@ -57,9 +57,9 @@ A countdown will be shown on the LEDs to signal to the player when to make his o
 * If either player has zero bullets and chooses to shoot, shoot is unsuccessful and action counts as a turn.
 * If either player has three bullets in their barrel and chooses to reload, player does not gain a bullet.
 
-At the end of each round, the player's previous move will be shown on the seven-segment display to avoid any confusion. Usually the life count would be private to keep the game fair, but for the purpose of the demo, we decided to show the life count of each player on the seven segment display to demonstrate that it functions properly and correctly.
+At the end of each round, the player's previous move will be shown on the seven-segment display to avoid any confusion. Usually the bullet count would be private to keep the game fair, but for the purpose of the demo, we decided to show the bullet count of each player on the seven segment display to demonstrate that it functions properly and correctly.
 
-A ***winner***will be announced on the seven-segment display when one player has lost all three lives. 
+A ***winner*** will be announced on the seven-segment display when one player has lost all three lives. 
 
 <a name="how_to_run"></a>      
 ### How to Run: ***(Compatible with XLINX NEXYS A7 FPGA Board)***    

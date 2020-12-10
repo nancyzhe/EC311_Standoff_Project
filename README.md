@@ -11,7 +11,7 @@
 * **Nancy Zheng** - [nancyzhe](https://github.com/nancyzhe)
 
 
-### Project Demo Video Link Here:
+### [Project Demo Video Link Here](https://www.youtube.com/watch?v=eXyeJoGngCI&feature=youtu.be)
 
 ### Table of Contents:
 
@@ -42,7 +42,7 @@ Our implementation of Standoff is one player game against the computer similar t
 A countdown will be shown on the LEDs to signal to the player when to make his or her move. Based on the combination of moves from Player 1 and the computer which we will call Player 2, a specific result will occur.
 
   Player 1 | Player 2 | Result
-  ---------|----------|-------
+  ---------|----------|------- 
   Shoot | Shoot | Both lose a bullet, no life lost
   Duck | Duck | Nothing
   Reload | Reload | Both gain a bullet

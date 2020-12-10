@@ -182,7 +182,7 @@ A ***winner***will be announced on the seven-segment display when one player has
     + `simple_computer.v`
          + `random_number.v`
               + `lfsr.v`
-                  * `flip_flop.v
+                  * `flip_flop.v`
                   * `load_mux.v`
     + `choice_valid.v` 
     + `outcome_calc.v` 

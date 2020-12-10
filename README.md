@@ -15,12 +15,14 @@
 
 ### Table of Contents:
 
+* [Organization](#organization)
 * [Project Overview](#projectoverview)
 * [How to Run](#how_to_run)
 * [How to Play](#how_to_play)
 * [Code Structure Overview](#code_structure)
            
 
+<a name="organization"></a> 
 ### Organization:
         
    * ***Folders***
@@ -35,9 +37,9 @@
 ### Project Overview:    
 
 Our implementation of Standoff is one player game against the computer similar to game we all know: Rock, Paper, Scissors. The player starts with three lives and one bullet in the barrel. The bullet count will be shown through the LEDs. At the beginning of each round, the player has three options:
-    * shoot
-    * reload
-    * duck
+* Shoot
+* Reload
+* Duck
 
 A countdown will be shown on the LEDs to signal to the player when to make his or her move. Based on the combination of moves from Player 1 and the computer which we will call Player 2, a specific result will occur.
 

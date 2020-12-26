@@ -36,7 +36,7 @@
 <a name="projectoverview"></a>   
 ### Project Overview:    
 
-Our implementation of Standoff is one player game against the computer similar to game we all know: Rock, Paper, Scissors. The player starts with three lives and one bullet in the barrel. The bullet count will be shown through the LEDs. At the beginning of each round, the player has three options:
+Our implementation of Standoff is one player game against the computer similar to a game we all know: Rock, Paper, Scissors. The player starts with three lives and one bullet in the barrel. The bullet count will be shown through the LEDs. At the beginning of each round, the player has three options:
 * Shoot
 * Reload
 * Duck
